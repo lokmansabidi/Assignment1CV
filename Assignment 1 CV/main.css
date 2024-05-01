@@ -1,0 +1,92 @@
+/**
+ * This CSS file contains global styles for a webpage, including styles for body, header, footer, sections, headings, and lists,
+ * as well as responsive styles for different screen sizes.
+ */
+
+/* Global Styles */
+body {
+  /* Set the default font family to Arial with fallback to sans-serif */
+  font-family: Arial, sans-serif;
+  /* Remove default margin and padding from the body */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  /* Set background color to a dark green */
+  background-color: #1d5a21;
+  /* Set text color to white */
+  color: #fff;
+  /* Add padding to the header content */
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  /* Set background color to the same dark green as the header */
+  background-color: #1d5a21;
+  /* Set text color to white */
+  color: #fff;
+  /* Center align text within the footer */
+  text-align: center;
+  /* Add padding to the footer content */
+  padding: 10px;
+}
+
+/* Styles for Sections */
+section {
+  /* Add margin above and below each section */
+  margin: 20px 0;
+  /* Add padding inside each section */
+  padding: 10px;
+}
+
+/* Heading Styles */
+h1 {
+  /* Center align h1 text */
+  text-align: center;
+  /* Set text color to white */
+  color: #fff;
+}
+
+h2, h3 {
+  /* Remove default margin for h2 and h3 */
+  margin: 0;
+  /* Remove default padding for h2 and h3 */
+  padding: 0;
+  /* Set text color for h2 and h3 to a dark shade */
+  color: #333;
+}
+
+/* List Styles */
+ul {
+  /* Remove default list styling */
+  list-style-type: none;
+  /* Remove default padding from unordered lists */
+  padding: 0;
+}
+
+/* Responsive Styles */
+
+/* Example Media Query for Tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  /* Adjust header padding for smaller screens */
+  header {
+      padding: 10px;
+  }
+
+  /* Adjust section padding for smaller screens */
+  section {
+      padding: 5px;
+  }
+}
+
+/* Example Media Query for Smartphone (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  /* Adjust header padding and font-size for smartphones */
+  header {
+      padding: 5px;
+      font-size: 18px;
+  }
+}
